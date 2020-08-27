@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: red;
+.header{
+	background-color: gray;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+.nav li{
+	display: inline-block;
+	margin-left: 5px;
+}

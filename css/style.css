@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+a{
+	text-decoration: none;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+header{
+ background: yellowgreen;
+	display: flex;
+	align-items: center;
+	padding: 15 0;
+	
+}
+header a{
+	color: aliceblue;
+}
+header ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	margin: 0 auto;
+	font-size: 30px;
+}
+#menu li{
+	padding: 10px;
+}
+#social li{
+	padding: 10px;
+}
+#social li a:hover{
+	background: gray;
+}
+
+/*header section end ----------------------------------------------- */ 
+#main{
+	display: flex;
+	
+} 
+aside ul{
+	text-decoration-style: none;
+	padding: 0;
+}
+aside ul a{
+	color:yellowgreen;
+	display: block;
+	padding: 10px;
+	border-bottom:1px solid gray;
+}
+
+aside{
+	flex: 0 0 17vw;
+	padding: 10px ;
+	background: beige;
+}
+aside img{
+	width: 100%;
+}
+article{
+	padding: 10px;
+}
+
+.service-container{
+	display: flex;
+	justify-content: space-between;    
+}
+.service-box{
+	border: 1px solid gray;
+	 padding: 10px;
+	 flex-basis: 32%;
+	 width: 370px;
+	 display: flex;
+	 flex-direction: column;
+	 margin-bottom: 15px;
+
+}   
+.service-box img{
+	width: 100%;
+}
+.call-action {
+	align-self: flex-start;
+	margin-top: auto;
+}
+
+.call-action a{
+	border:2px solid transparent;
+	background-color: gray;
+	color: white;
+	padding: 8px 13px;
+	display: block;
+}
+
+.call-action a:hover{
+	border:2px solid  gray;
+	background-color:transparent;
+}
+
+
+/*header section end ----------------------------------------------- */ 
+footer{
+	background:yellowgreen;
+	color:wheat;
+	text-align: center
+	
+
+
+}
