@@ -71,6 +71,7 @@ article{
 }
 
 .service-container{
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: space-between;    
 }
@@ -106,12 +107,50 @@ article{
 }
 
 
-/*header section end ----------------------------------------------- */ 
+/*footer section start ----------------------------------------------- */ 
 footer{
 	background:yellowgreen;
 	color:wheat;
 	text-align: center
 	
+}
 
+/*footer section end ----------------------------------------------- */
 
+/*media queries ----------------------------------------------- */
+@media screen and (max-width:850px){
+	.service-box{
+		flex-basis: 48%;
+	}
+	aside{
+		flex:0 0 30vw;
+	}
+}
+
+@media screen and (max-width:600px){
+
+	header{
+		flex-direction: column;
+	}
+	#logo{
+		order:-1;
+	}
+	#main{
+		flex-direction: column;
+
+	}
+	article{
+		order: -1;
+	}
+	.service-container{
+	flex-direction: column;
+	align-items: center;
+	}
+	h2{
+		text-align: center;
+	}
+	
+	aside{
+		flex:0 0 30vw;
+	}
 }
